@@ -434,7 +434,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color: yellow;
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -604,7 +604,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #f38b74;
+  background: #7ea2d2;
   margin: 4px 10px;
 }
 
@@ -615,7 +615,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0f2f57;
+  color: #7ea2d2;
 }
 
 /*--------------------------------------------------------------
@@ -645,7 +645,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #ed502e;
+  color: #7ea2d2;
   line-height: 1;
 }
 
