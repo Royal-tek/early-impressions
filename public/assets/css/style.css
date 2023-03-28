@@ -1,13 +1,4 @@
-/**
-* Template Name: Multi - v4.10.0
-* Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -91,6 +82,7 @@ h6 {
   bottom: 15px;
   z-index: 996;
   background: #7ea2d2;
+  border: 1px solid #111;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -129,7 +121,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 26px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -595,7 +587,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #7ea2d2;
   font-family: "Poppins", sans-serif;
 }
 
@@ -615,7 +607,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #7ea2d2;
+  color: yellow;
 }
 
 /*--------------------------------------------------------------
@@ -645,7 +637,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #7ea2d2;
+  color: yellow;
   line-height: 1;
 }
 
@@ -663,17 +655,18 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #ed502e;
+  color: #7ea2d2;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #ed502e;
+  border: 2px solid #7ea2d2;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #ed502e;
-  color: #fff;
+  background: #7ea2d2;
+  color: yellow;
   text-decoration: none;
+  border: 2px solid #7ea2d2;
 }
 
 /*--------------------------------------------------------------
@@ -692,7 +685,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 30px;
-  color: #ed502e;
+  color: #7ea2d2;
   float: left;
 }
 
@@ -740,7 +733,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #123a6d;
+  color: #7ea2d2;
 }
 
 .why-us .content h4 {
@@ -795,7 +788,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #ed502e;
+  color: yellow;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -822,7 +815,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #ed502e;
+  color: #7ea2d2;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -956,7 +949,7 @@ section {
   text-align: center;
   background: #fefefe;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  padding: 80px 20px;
+  padding: 80px 80px;
   transition: all ease-in-out 0.3s;
 }
 
@@ -964,7 +957,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ed502e;
+  background: #7ea2d2;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -988,7 +981,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #f9c6bb;
+  background: #95b7e4;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
@@ -1012,20 +1005,20 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #ed502e;
-  border-color: #ed502e;
+  background: #7ea2d2;
+  border-color: #7ea2d2;
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: yellow;
 }
 
 .services .icon-box:hover .icon i {
-  color: #ed502e;
+  color: #7ea2d2;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #f1775d;
+  background: rgb(237, 237, 151);
 }
 
 .services .icon-box:hover h4 a,
@@ -1078,7 +1071,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #fdedea;
+  color: yellow;
   font-size: 26px;
 }
 
@@ -1110,24 +1103,30 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ed502e;
+  border: 1px solid #7ea2d2;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ed502e;
+  background-color: #7ea2d2;
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  padding: 80px 0;
-  background: #0b2341;
+  /* max-height: 100vh; */
+  padding: 150px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .cta h3 {
+  text-transform: uppercase;
   color: #fff;
-  font-size: 28px;
+  color: yellow;
+  font-size: 38px;
   font-weight: 700;
 }
 
@@ -1145,13 +1144,13 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #ed502e;
-  color: #fff;
+  border: 2px solid #7ea2d2;
+  color: yellow;
 }
 
 .cta .cta-btn:hover {
-  background: #ed502e;
-  border: 2px solid #ed502e;
+  background: #7ea2d2;
+  border: 2px solid #7ea2d2;
 }
 
 /*--------------------------------------------------------------
@@ -1420,8 +1419,9 @@ section {
 }
 
 .pricing .box {
-  padding: 80px 40px;
+  /* padding: 60px 30px; */
   margin-bottom: 30px;
+  height: 500px;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   background: #fff;
   text-align: center;
@@ -1434,8 +1434,8 @@ section {
 }
 
 .pricing h4 {
-  font-size: 46px;
-  color: #0b2341;
+  font-size: 30px;
+  color: #7ea2d2;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -1460,7 +1460,7 @@ section {
 }
 
 .pricing ul i {
-  color: #ed502e;
+  color: yellow;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1497,30 +1497,31 @@ section {
 
 .pricing .featured {
   z-index: 10;
-  padding: 100px 40px;
-  border: 4px solid #ed502e;
+  padding: 80px 40px;
+  border: 4px solid #7ea2d2;
 }
 
 .pricing .featured .get-started-btn {
-  background: #ed502e;
-  color: #fff;
-  border-color: #ed502e;
+  
+  color: #7ea2d2;
+  border-color: #7ea2d2;
 }
 
 .pricing .featured .get-started-btn:hover {
-  background: #ef6445;
+  background: #7ea2d2;
+  color: yellow;
 }
 
 @media (max-width: 992px) {
   .pricing .box {
-    max-width: 60%;
+    /* max-width: 60%; */
     margin: 0 auto 30px auto;
   }
 }
 
 @media (max-width: 767px) {
   .pricing .box {
-    max-width: 80%;
+    /* max-width: 80%; */
     margin: 0 auto 30px auto;
   }
 }
@@ -1575,7 +1576,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #ed502e;
+  color: yellow;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #fbdad2;
@@ -1583,7 +1584,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: #7ea2d2;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1604,7 +1605,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #7ea2d2;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1653,7 +1654,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #ed502e;
+  border-color: #7ea2d2;
 }
 
 .contact .php-email-form input {
@@ -1665,16 +1666,17 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ed502e;
-  border: 0;
+  /* background: ; */
+  border: 1px solid #7ea2d2;
   padding: 10px 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #7ea2d2;
   transition: 0.4s;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ef6445;
+  background: #7ea2d2;
+  color: yellow;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1743,7 +1745,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #071527;
+  background: #7ea2d2;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1793,7 +1795,7 @@ section {
 
 #footer .footer-top .social-links a:hover {
   color: #fff;
-  background: #ed502e;
+  background: yellow;
   text-decoration: none;
 }
 
@@ -1817,7 +1819,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ef6445;
+  color: yellow;
   font-size: 18px;
   line-height: 1;
 }
@@ -1840,7 +1842,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ef6445;
+  color: #111;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1866,18 +1868,19 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #ed502e;
+  background: #6687b1;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ef6445;
+  background: yellow;
+  color: #111;
 }
 
 #footer .copyright {
-  border-top: 1px solid #0f2f57;
+  border-top: 1px solid #111;
   text-align: center;
   padding-top: 30px;
 }
